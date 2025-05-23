@@ -1,0 +1,74 @@
+/* Container for the entire leave requests grid */
+.requests-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 columns for Leave ID, Employee ID, etc. */
+    gap: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Grid header styling */
+.grid-header {
+    display: contents; /* Keep header items aligned with the grid */
+    font-weight: bold;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Row styling for each leave request */
+.request-row {
+    display: contents; /* Align rows with grid structure */
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternating background for rows for better readability */
+.request-row:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* Document link styling */
+.document-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.document-link:hover {
+    text-decoration: underline;
+}
+
+/* No document available text styling */
+.request-row span {
+    color: #888;
+}
+
+/* No leave requests found message styling */
+.requests-grid p {
+    grid-column: span 8; /* Span across all columns */
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+
+.status-text {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-text.approved {
+    color: green;
+  }
+  
+  .status-text.rejected {
+    color: red;
+  }
+  

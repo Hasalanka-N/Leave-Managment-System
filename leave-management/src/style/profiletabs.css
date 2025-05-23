@@ -1,0 +1,125 @@
+.personal-main{
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    padding-bottom: 5%
+}
+
+.personal-main1{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-left{
+    flex: 5;
+    line-height: 0.1;
+    padding-left: 50px;
+}
+
+.personal-right{
+    flex: 5;
+    line-height: 0.1;
+}
+
+select {
+    padding: 5px;
+    font-size: 12px;
+    width: 310px;
+    border-radius: 5px;
+    height: 35px;
+  }
+  
+  .selection {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  input {
+    border: 1px solid #7e7e7e;
+    padding: 5px;
+    font-size: 12px;
+    width: 300px;
+    border-radius: 5px;
+    height: 22px;
+    margin-top: 3px;
+  }
+
+
+  /* Container for the phone input group */
+.phone-input-container {
+  margin: 10px 0;
+}
+
+/* Flex container for aligning select and input side by side */
+.phone-input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  width: 310px;
+  border-radius: 5px;
+}
+
+#countryCode{
+  width: 86px;
+  height: 32px;
+  border: none;
+  border-radius: 0;
+  border-right: 1px solid rgb(171, 171, 171);
+}
+#countryCode::selection{
+  border: none;
+}
+
+#workPhone{
+  width: 200px;
+  margin-left: -10px;
+  border: none;
+}
+#workPhone:hover{
+  border: none;
+}
+.phone-input-group select:focus,
+.phone-input-group select:hover,
+.phone-input-group select:active,
+.phone-input-group input:focus,
+.phone-input-group input:hover,
+.phone-input-group input:active {
+    border: none;
+    outline: none; 
+}
+
+/* Style for the country code select dropdown */
+.phone-input-group select {
+  border: 1px solid #7e7e7e;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 22px;
+  background-color: #fff;
+}
+
+/* Style for the phone number input field */
+.phone-input-group input {
+  border: 1px solid #7e7e7e;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 300px;
+  height: 22px;
+  background-color: #fff;
+}
+
+
+  .personal-left p{
+    font-size: 12px;
+    margin-top: 25px;
+  }
+
+  .personal-right p{
+    font-size: 12px;
+    margin-top: 25px;
+  }

@@ -1,0 +1,127 @@
+.requestViewMain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.adminNavBar{
+    flex: 0.4;
+    background-color: white;
+}
+
+.viewRequestContant{
+    flex: 9.6;
+    background-color: white;
+    height: 100vh;
+}
+.view-request-content-container{
+    background-color: lightgray;
+    height: 95%;
+}
+
+.request-view-admin{
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 25px;
+   
+
+}
+.request-view-a{
+    flex: 2;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.request-view-admin-content2{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding: 50px;
+}
+
+.leaveh3{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.leave-request{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+.leave-request p{
+    padding: 15px;
+}
+
+.request-view-admin {
+    padding: 20px;
+  }
+  
+  .leave-requests-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    gap: 10px;
+    align-items: center;
+    justify-items: center; 
+  }
+  
+  .leave-requests-grid-header, .leave-request-row {
+    display: contents;
+  }
+  
+  .leave-requests-grid-header {
+    font-weight: 550;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .leave-request-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .leave-requests-grid-header > div{
+    text-align: center; 
+
+  } .leave-request-row > div {
+    text-align: center; 
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .document-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .document-link:hover {
+    text-decoration: underline;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .approve-btn, .reject-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+  }
+  
+  .approve-btn:hover, .reject-btn:hover {
+    opacity: 0.8;
+  }
+  

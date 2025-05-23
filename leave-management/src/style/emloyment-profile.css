@@ -1,0 +1,35 @@
+.employment-main{
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.employment-main1{
+    display: flex;
+    flex-direction: row;
+}
+
+.employment-left{
+    flex: 5;
+    line-height: 0.1;
+    padding-left: 50px;
+}
+
+.employment-right{
+    flex: 5;
+    line-height: 0.1;
+}
+
+.employment-left p{
+    font-size: 12px;
+    margin-top: 25px;
+  }
+
+  .employment-right p{
+    font-size: 12px;
+    margin-top: 25px;
+  }

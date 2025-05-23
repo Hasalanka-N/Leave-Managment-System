@@ -1,0 +1,164 @@
+.addEmployeeMain{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.addEmployeeNavBar{
+    flex: 0.35;
+    padding-left: 5px;
+}
+.addEmployeeContant{
+    flex: 9.65;
+}
+.addEmployeehorizontalNavBar{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    margin-top: -18px;
+}
+.empdata {
+    height: 93vh; /* or any suitable height */
+    overflow-y: auto;
+    background-color: rgb(217, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.addemp-main{
+    background-color: white;
+    height: auto;
+    width: 1000px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    text-align: start;
+}
+.addemp-main1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.addemp-left{
+    flex: 5;
+    padding-left: 100px;
+}
+.addemp-right{
+    flex: 5;
+    padding-left: 60px;
+}
+.addemp-main h3{
+    margin-left: 50px;
+}
+select {
+    padding: 5px;
+    font-size: 12px;
+    width: 310px;
+    border-radius: 5px;
+    height: 35px;
+  }
+  
+  .selection {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  input {
+    border: 1px solid #7e7e7e;
+    padding: 5px;
+    font-size: 12px;
+    width: 300px;
+    border-radius: 5px;
+    height: 22px;
+    margin-top: 3px;
+  }
+
+
+  /* Container for the phone input group */
+.phone-input-container {
+  margin: 10px 0;
+}
+
+/* Flex container for aligning select and input side by side */
+.phone-input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  width: 310px;
+  border-radius: 5px;
+}
+
+#countryCode{
+  width: 86px;
+  height: 32px;
+  border: none;
+  border-radius: 0;
+  border-right: 1px solid rgb(171, 171, 171);
+}
+#countryCode::selection{
+  border: none;
+}
+
+#workPhone{
+  width: 200px;
+  margin-left: -10px;
+  border: none;
+}
+#workPhone:hover{
+  border: none;
+}
+.phone-input-group select:focus,
+.phone-input-group select:hover,
+.phone-input-group select:active,
+.phone-input-group input:focus,
+.phone-input-group input:hover,
+.phone-input-group input:active {
+    border: none;
+    outline: none; 
+}
+
+/* Style for the country code select dropdown */
+.phone-input-group select {
+  border: 1px solid #7e7e7e;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 22px;
+  background-color: #fff;
+}
+
+/* Style for the phone number input field */
+.phone-input-group input {
+  border: 1px solid #7e7e7e;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 300px;
+  height: 22px;
+  background-color: #fff;
+}
+
+
+.addemp-left p{
+    font-size: 12px;
+    margin-top: 25px;
+  }
+
+  .addemp-right p{
+    font-size: 12px;
+    margin-top: 25px;
+  }
+#workPhoneNumber{
+  border: none;
+}
+#personalPhoneNumber{
+  border: none;
+}

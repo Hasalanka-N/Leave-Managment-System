@@ -1,0 +1,191 @@
+.personal-main-leave{
+    background-color: transparent;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.personal-left-leave{
+    background-color: white;
+    border-radius: 15px;
+    flex: 5;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.personal-left-leave p{
+    font-size: 12px;
+    margin-bottom: 6px;
+    font-weight: 200;
+}
+
+.personal-right-leave{
+    background-color: transparent;
+    flex: 5;
+    align-items: start;
+    margin-left: 50px;
+}
+
+textarea{
+    width: 305px;
+    border-radius: 5px;
+}
+
+#btnsubmit{
+    width: 60px;
+    height: 25px;
+    margin-left: 90%;
+    background-color: rgb(70, 182, 70);
+    color: white;
+    border: none;
+}
+
+#btnsubmit:hover{
+    background-color: green;
+}
+
+#btndoc{
+    height: 26px;
+    width: 80px;
+}
+
+#leaveHistory{
+    margin-left: 85%;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    font-size: 10px;
+    background-color: orange;
+    color: white;
+}
+
+#leaveHistory:hover{
+    background-color: rgb(243, 109, 0);
+}
+
+.leaveh3{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+
+
+.custom-time-picker {
+    width: 100%;
+    padding-left: 2.5rem; /* Ensure input padding leaves space for the icon */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-message{
+    color: red;
+  }
+
+
+  /* my leave view*/
+
+  .personal-left-leave-view{
+    background-color: white;
+    border-radius: 15px;
+    flex: 5;
+    min-height: 500px;
+    max-height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+  }
+
+.leave-requests-grid-header-my,
+.leave-request-row-my {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.leave-requests-grid-header-my {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.leave-request-row-my {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.leave-request-row-my:hover {
+  background-color: #f1f1f1;
+}
+
+.leave-requests-grid-header-my div,
+.leave-request-row-my div {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.document-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.document-link:hover {
+  color: #0056b3;
+}
+
+.leave-request-row-my div:nth-child(8) {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #333;
+}
+
+.buttons .Cancel-btn {
+  padding: 8px 15px;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons .Cancel-btn:hover {
+  background-color: #ff1a1a;
+}
+
+@media (max-width: 768px) {
+  .leave-requests-grid-header-my,
+  .leave-request-row-my {
+    grid-template-columns: repeat(3, 1fr); /* Reduce columns on smaller screens */
+    font-size: 12px;
+  }
+
+  /* Hide less important columns */
+  .leave-requests-grid-header-my div:nth-child(2),
+  .leave-request-row-my div:nth-child(2),
+  .leave-requests-grid-header-my div:nth-child(6),
+  .leave-request-row-my div:nth-child(6),
+  .leave-requests-grid-header-my div:nth-child(7),
+  .leave-request-row-my div:nth-child(7) {
+    display: none;
+  }
+}

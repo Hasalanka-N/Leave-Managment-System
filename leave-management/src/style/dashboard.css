@@ -1,0 +1,164 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  background-color: white;
+}
+
+.nav-container {
+  width: 3.5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  color: #fff;
+  margin-left: 0.2%;
+}
+
+.content-container {
+  flex: 7;
+  margin-left: 3.6%;
+  height: 100vh;
+  width: calc(100% - 3.7%);
+}
+
+.content{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(239, 237, 237);
+  margin-top: -21px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+
+.HorizontalNavbar{
+  margin-left: 50px;
+  margin: 0px;
+  position: fixed;
+}
+
+.leave-card-container{
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;
+  background-color: red;*/
+  flex: 6;
+}
+.dashboardtext{
+  margin-left: 40px;
+}
+
+.startwork{
+  flex: 4;
+  padding: 10px;
+}
+
+.panel1{
+  display: flex;
+  flex-direction: row;
+}
+
+.stjob{
+  width: 98%;
+  background-color: white;
+  border: 2px solid rgb(146, 141, 141);
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rstjob{
+  flex: 5;
+  height: 100%;
+  padding-top: 70px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.lstjob{
+  flex: 5;
+  padding-left: 5%;
+  line-height: 6px;
+  padding-top: 4%;
+
+}
+
+.lastlogp{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.lastlogtime{
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.lastlogdate{
+  margin-left: 30px;
+}
+
+.logTimebtn{
+  height: 35px;
+  border-radius: 20px;
+  width: 120px;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: rgb(66, 177, 66);
+  border: none;
+  color: #fff;
+}
+.logTimebtn:hover{
+  background-color: green;
+}
+
+.content2{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+.workhours {
+  flex: 6;
+  height: 470px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase opacity */
+  background-color: white;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.workhours h3{
+  margin-left: 10px;
+}
+
+.a{
+  flex: 4;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  background-color: #fffcfc;
+  padding: 25px;
+}
+
+.a h3{
+  margin: 0;
+}
+
+.content3{
+  height: 70px;
+}

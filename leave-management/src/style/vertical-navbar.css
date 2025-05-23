@@ -1,0 +1,108 @@
+.vertical-navbar {
+    margin-top: 0.2%;
+    width: 50px;
+    position: fixed; 
+    height: 99%;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-color: #c7c7b3;*/
+    background: linear-gradient(to right, #4a90e2, #9ed8f5);
+    height: 100%;
+    position: relative; 
+}
+
+.navbarup{
+  height: 92%;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 25px;
+}
+.profile-icon{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 25px;
+}
+
+li a.active {
+    /* Add styles for active links if needed */
+}
+
+li a:hover:not(.active) {
+    background-color: #d6d6d6;
+    color: rgb(85, 85, 212);
+}
+
+.logo-image {
+    margin-top: 15%;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+hr {
+    border: 1px solid #817e7e60; /* Light grey color for the border */
+}
+
+.logout {
+  margin-top: auto; /* Pushes the logout button to the bottom */
+}
+
+.logout a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  color: #000;
+  text-decoration: none;
+  border-top: 1px solid #d6d6d6; /* Optional: add a border for visual separation */
+}
+
+.dropdown-menu{
+    z-index: 1000;
+    position: fixed;
+    margin-left: 55px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.dropdown-menu button{
+    border: none;
+    background-color:transparent;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0;
+
+}
+
+.dropdown-menu button:hover{
+    background-color:transparent;
+    color: red;
+
+}
+
+.logout button{
+    background-color: transparent;
+    border: none;
+
+}
